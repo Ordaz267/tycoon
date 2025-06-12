@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROYECTOS MDJ CODE-X</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .btn-blue, .btn-green, .btn-purple, .btn-red, .btn-yellow {
+      border-radius: 0.5rem;
+      padding: 1rem;
+      width: 100%;
+      text-align: left;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #00000050;
+      transition: background-color 0.3s;
+    }
+
+    .btn-blue { background: linear-gradient(135deg,#56ab2f,#a8e6cf); color: black; }
+    .btn-blue:hover { background: linear-gradient(135deg, #7ce4a9, #2ca94f); }
+
+    .btn-green {background: linear-gradient(135deg,#2fa3ab,#a8e6cf); color: black; }
+    .btn-green:hover { background: linear-gradient(135deg, #7ce4a9, #2ca9a1); }
+
+    .btn-purple { background: linear-gradient(135deg,#ff4800,#a8e6cf); color: black; }
+    .btn-purple:hover { background: linear-gradient(135deg, #7ce4a9, #ff0000); }
+
+    .btn-red { background: linear-gradient(135deg,#ff00e6,#a8e6cf); color: black; }
+    .btn-red:hover { background: linear-gradient(135deg, #7ce4a9, #ff00e6); }
+
+    .btn-yellow { background: linear-gradient(135deg,#ffb700,#a8e6cf); color: black; }
+    .btn-yellow:hover { background: linear-gradient(135deg, #7ce4a9, #ffb700); }
+
+    .link-btn {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 2px #00000070;
+      color: black;
+    }
+
+    .link-blue { background-color: #2563eb; }
+    .link-blue:hover { background-color: #1e40af; }
+
+    .link-green { background-color: #16a34a; }
+    .link-green:hover { background-color: #14532d; }
+
+    .link-purple { background-color: #7c3aed; }
+    .link-purple:hover { background-color: #5b21b6; }
+
+    .link-red { background-color: #dc2626; }
+    .link-red:hover { background-color: #991b1b; }
+
+    .link-yellow { background-color: #eab308; }
+    .link-yellow:hover { background-color: #ca8a04; }
+  </style>
+</head>
+<body class="text-black font-bold">
+  <div class="min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-6xl bg-gray-200 bg-opacity-30 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden grid grid-cols-1 md:grid-cols-2">
+      
+      <!-- Sección izquierda -->
+      <div class="p-6 flex flex-col items-center justify-start w-full overflow-y-auto max-h-[90vh] space-y-4">
+
+        <!-- Sección Nosotros -->
+        <div id="nosotros-container" class="hidden w-full text-black space-y-4">
+          <img src="1.jpg" alt="Nosotros" class="rounded-xl shadow-md w-full max-w-xl mx-auto">
+          <p class="text-lg leading-relaxed text-center px-4">
+            Somos un grupo especializado en el desarrollo de códigos y juegos en línea para iOS. 
+            Combinamos creatividad, tecnología y experiencia para crear
+            experiencias interactivas de alta calidad, optimizadas para dispositivos móviles de Apple.
+          </p>
+        </div>
+
+       <!-- Sección Imágenes de procesos -->
+<div id="procesos-container" class="hidden flex flex-col gap-8 w-full px-4 py-6">
+
+  <!-- Zona 1: TYCOON -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-center">🌍 TYCOON</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div><img src="12.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">MAPA COMPLETO</p></div>
+      <div><img src="13.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ECOSISTEMA DINO</p></div>
+      <div><img src="14.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ECOSISTEMA ANIMAL</p></div>
+      <div><img src="15.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ECOSISTEMA DRAGON</p></div>
+      <div><img src="16.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ESTACIONAMIENTO</p></div>
+      <div><img src="17.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ECOSISTEMA NEVADO</p></div>
+      <div><img src="18.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">FÁBRICA</p></div>
+      <div><img src="19.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">SPAWN</p></div>
+      <div><img src="20.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">TURBINAS EÓLICAS</p></div>
+    </div>
+  </div>
+
+  <!-- Zona 2: ISLA PARADIS -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-center">🏝️ ISLA PARADIS</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div><img src="26.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">PUEBLOS</p></div>
+      <div><img src="27.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">REFUGIOS</p></div>
+      <div><img src="28.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">SPAWN</p></div>
+    </div>
+  </div>
+
+  <!-- Zona 3: MUNDO PERDIDO -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-center">🦖 MUNDO PERDIDO</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div><img src="21.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">MAPA COMPLETO</p></div>
+      <div><img src="22.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">ZONA SEGURA</p></div>
+      <div><img src="23.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">NPC</p></div>
+      <div><img src="24.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">PORTAL</p></div>
+      <div><img src="25.png" class="rounded-xl w-full shadow-md"><p class="text-center mt-2">PILARES</p></div>
+    </div>
+  </div>
+
+</div>
+
+
+        <!-- Imagen y título principal -->
+        <img id="imagen-principal" src="1.jpg" alt="MDJ CODE-X" width="600" height="400" class="rounded-xl shadow-md transition-all duration-300">
+        <h3 id="titulo-proyecto" class="text-xl font-bold text-center text-black drop-shadow-lg">MDJ CODE-X</h3>
+
+        <!-- Enlaces de mundos -->
+        <div id="links-container" class="hidden w-full space-y-4">
+          <a href="https://www.roblox.com/es/games/137433814297040/TYCOON-ECO-NATURE" target="_blank" class="link-btn link-blue">🔗 ROBLOX TYCOON</a>
+          <a href="https://www.roblox.com/es/games/98204042306934/PARADIS" target="_blank" class="link-btn link-green">🔗 ROBLOX PARADIS ISLA</a>
+          <a href="https://www.roblox.com/es/games/137806092178483/MUNDO-PERDIDO" target="_blank" class="link-btn link-purple">🔗 ROBLOX MUNDO PERDIDO</a>
+        </div>
+
+        <!-- Enlaces de presentaciones -->
+        <div id="presentaciones-container" class="hidden w-full space-y-4">
+          <a href="https://prezi.com/view/kFwKoAS6XSbi21amlsvS/" target="_blank" class="link-btn link-purple">📄 AVANCE 1</a>
+          <a href="https://www.canva.com/design/DAGmEC-DGAQ/skRzOKCpw0eJjXynJXAqjQ/view" target="_blank" class="link-btn link-green">📄 AVANCE 2</a>
+          <a href="https://www.canva.com/design/DAGqHFyJJj8/V8cawngjqgrVJcoi4VxX6w/view" target="_blank" class="link-btn link-red">📄 AVANCE 3</a>
+          <a href="https://www.canva.com/design/DAGqHOivhKg/Dk96yVRn_wuUUazcZpLZHw/view" target="_blank" class="link-btn link-blue">📄 AVANCE 4</a>
+          <a href="https://www.canva.com/design/DAGqHN6MgU4/1eQp59SSEicFh0WjZbSIaQ/view" target="_blank" class="link-btn link-yellow">📄 AVANCE 5</a>
+        </div>
+
+        <!-- Contenedor para video trailer -->
+        <div id="trailer-container" class="hidden w-full flex flex-col items-center justify-center p-4">
+          <video width="600" controls class="rounded-xl shadow-md">
+            <source src="TRAILER.mp4" type="video/mp4" />
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+        </div>
+      </div>
+
+      <!-- Botones -->
+      <div class="p-8 space-y-6">
+        <h2 class="text-2xl font-bold text-black drop-shadow-lg mb-4">PROYECTOS MDJ </h2>
+        <button onclick="mostrarProyecto('', '🌿 NOSOTROS')" class="btn-blue">🌿 NOSOTROS</button>
+        <button onclick="mostrarProyecto('', '💡 MUNDOS DE ROBLOX')" class="btn-green">💡 IMÁGENES DE PROCESOS</button>
+        <button onclick="mostrarPresentaciones()" class="btn-purple">🚀 PRESENTACIONES DE AVANCES</button>
+        <button onclick="mostrarLinks()" class="btn-red">🎮 MUNDOS DE ROBLOX</button>
+        <button onclick="mostrarTrailer()" class="btn-yellow block text-center">🎬 TRAILER</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function mostrarProyecto(ruta, titulo) {
+      document.getElementById("imagen-principal").style.display = "none";
+      document.getElementById("titulo-proyecto").style.display = "none";
+      document.getElementById("links-container").classList.add("hidden");
+      document.getElementById("presentaciones-container").classList.add("hidden");
+      document.getElementById("nosotros-container").classList.add("hidden");
+      document.getElementById("procesos-container").classList.add("hidden");
+      document.getElementById("trailer-container").classList.add("hidden");
+
+      if (titulo === '🌿 NOSOTROS') {
+        document.getElementById("nosotros-container").classList.remove("hidden");
+      } else if (titulo === '💡 MUNDOS DE ROBLOX') {
+        document.getElementById("procesos-container").classList.remove("hidden");
+      } else {
+        document.getElementById("imagen-principal").src = ruta;
+        document.getElementById("imagen-principal").style.display = "block";
+        document.getElementById("titulo-proyecto").textContent = titulo;
+        document.getElementById("titulo-proyecto").style.display = "block";
+      }
+    }
+
+    function mostrarLinks() {
+      document.getElementById("imagen-principal").style.display = "none";
+      document.getElementById("titulo-proyecto").style.display = "none";
+      document.getElementById("presentaciones-container").classList.add("hidden");
+      document.getElementById("links-container").classList.remove("hidden");
+      document.getElementById("nosotros-container").classList.add("hidden");
+      document.getElementById("procesos-container").classList.add("hidden");
+      document.getElementById("trailer-container").classList.add("hidden");
+    }
+
+    function mostrarPresentaciones() {
+      document.getElementById("imagen-principal").style.display = "none";
+      document.getElementById("titulo-proyecto").style.display = "none";
+      document.getElementById("links-container").classList.add("hidden");
+      document.getElementById("presentaciones-container").classList.remove("hidden");
+      document.getElementById("nosotros-container").classList.add("hidden");
+      document.getElementById("procesos-container").classList.add("hidden");
+      document.getElementById("trailer-container").classList.add("hidden");
+    }
+
+    function mostrarTrailer() {
+      document.getElementById("imagen-principal").style.display = "none";
+      document.getElementById("titulo-proyecto").style.display = "none";
+      document.getElementById("links-container").classList.add("hidden");
+      document.getElementById("presentaciones-container").classList.add("hidden");
+      document.getElementById("nosotros-container").classList.add("hidden");
+      document.getElementById("procesos-container").classList.add("hidden");
+      document.getElementById("trailer-container").classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
